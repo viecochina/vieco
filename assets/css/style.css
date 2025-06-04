@@ -93,6 +93,14 @@
  */
 
 /* ⭐修改替换字体显示 */
+@font-face {
+    font-family: "CangErYuMo";
+    src: url('../fonts/仓耳与墨W04.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* 
 @font-face {
 	font-family: "Noto Sans SC";
@@ -720,6 +728,11 @@ progress {
     max-width: 1200px;
   }
 }
+
+.font-canger{
+  font-family: CangErYuMo;
+}
+
 
 .row {
   --bs-gutter-x: 30px;
@@ -22701,6 +22714,7 @@ input[type="submit"] {
 }
 
 .coming-soon-area .coming-soon-content h1, .coming-soon-area .coming-soon-content .h1 {
+  font-family: "CangErYuMo", sans-serif;
   font-size: 100px;
   color: #ffffff;
 }
